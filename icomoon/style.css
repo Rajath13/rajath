@@ -1,52 +1,52 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?w6ac78');
-  src:  url('fonts/icomoon.eot?w6ac78#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?w6ac78') format('truetype'),
-    url('fonts/icomoon.woff?w6ac78') format('woff'),
-    url('fonts/icomoon.svg?w6ac78#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-bitbucket:before {
-  content: "\e902";
-}
-.icon-github:before {
-  content: "\e904";
-}
-.icon-git:before {
-  content: "\e905";
-}
-.icon-jenkins:before {
-  content: "\e906";
-}
-.icon-kubernetes:before {
-  content: "\e907";
-}
-.icon-azure:before {
-  content: "\e901";
-}
-.icon-terraform:before {
-  content: "\e900";
-}
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?rmpnud');
+    src:  url('fonts/icomoon.eot?rmpnud#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?rmpnud') format('truetype'),
+      url('fonts/icomoon.woff?rmpnud') format('woff'),
+      url('fonts/icomoon.svg?rmpnud#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-azure:before {
+    content: "\e901";
+  }
+  .icon-kubernetes:before {
+    content: "\e902";
+  }
+  .icon-jenkins:before {
+    content: "\e903";
+  }
+  .icon-terraform:before {
+    content: "\e904";
+  }
+  .icon-github:before {
+    content: "\e905";
+  }
+  .icon-bitbucket:before {
+    content: "\e900";
+  }
+  .icon-git:before {
+    content: "\eae7";
+  }
 .small{
-  font-size: 30%;
-  text-align: center;
-}
+    font-size: 30%;
+    text-align: center;
+}  
