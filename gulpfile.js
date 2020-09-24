@@ -145,7 +145,7 @@ function distFolder(){
 
 // Define complex tasks
 const vendor = gulp.series(clean, modules);
-const build = gulp.series(vendor, gulp.parallel(css, js, icomoon));
+const build = gulp.series(vendor, gulp.parallel(css, js, icomoon, distFolder));
 const watch = gulp.series(build, gulp.parallel(watchFiles, browserSync, distFolder));
 // const dist = gulp.series(watch)
 
