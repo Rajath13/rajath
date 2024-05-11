@@ -5,10 +5,14 @@
 Powering the website - www.rajath.in
 
 Create your own website using the below steps after cloning this repo : 
-`npm install` - install all the required dependencies
-`npm start` - runs the local server at `http://localhost:3000/` with browsersync and live updates. Make the changes locally and they are automatically reflected on the local server.
+```
+npm install
+npm start
+```
 
-Alternatively you can use 
+A local server is run at http://localhost:3000/ and any changes made are automatically reflected on the local server on save.
+
+Alternatively you can use :
 `npm run build` - create the dist folder
 
 Host the contents from your `dist` folder.
